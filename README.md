@@ -13,8 +13,20 @@ The following specs were used to create the original solution.
 ### Data pre-process
 #### Data_classes
 All required files except images are already in data directory.
-Using dataclass.py to devide the training_data into cars’ categories according to the labels from the csv file.
+Using **dataclass.py** to devide the training_data into cars’ categories according to the labels from the csv file.
 ```
 $ python3 dataclass.py
+```
+After deviding, the training_data becomes like this:
+```
+Trainin_data
+  +- train
+    |	+- label 1
+    |	+- label 2
+    | 	+- label 3 ....(total 196 species labels )
+  +- val
+    |	+- label 1
+    |	+- label 2
+    | 	+- label 3 ....(total 196 species labels )
 ```
 
