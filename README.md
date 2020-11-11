@@ -50,5 +50,12 @@ To train models, run following commands.
 ```
 $ python3 training.py
 ```
+### Hyperparameters
+Batch size=32, epochs=20
+#### Loss Functions
+Use the nn.CrossEntropyLoss()
+#### Optimizer
+Use the SGD optimizer with lr=0.01, momentum=0.9
+Use the lr_scheduler.StepLR() with step_size=10, gamma=0.1 to adjust learning rate. 
 
 
