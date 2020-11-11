@@ -41,4 +41,7 @@ transforms.Compose([
         transforms.ToTensor(),
         transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
 ```
+### Model architecture
+PyTorch provides several pre-trained models with different architectures. 
 
+Among them, **ResNet152** is the architecture I adopted and I redefine the last layer to output 196 values, one for each class. As it gave the best validation accuracy upon training on our data, after running various architectures for about 10 epochs.
