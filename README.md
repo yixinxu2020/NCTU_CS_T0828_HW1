@@ -14,5 +14,7 @@ The following specs were used to create the original solution.
 #### Data_classes
 All required files except images are already in data directory.
 Using dataclass.py to devide the training_data into cars’ categories according to the labels from the csv file.
+```
 $ python3 dataclass.py
+```
 
