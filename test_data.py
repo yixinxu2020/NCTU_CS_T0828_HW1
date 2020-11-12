@@ -46,10 +46,10 @@ class CarDataset(Dataset):
 # Define the predictive function for test_data
 def prediect(test_dataset):
     # Read the previously trained model
-    net = models.resnet50(pretrained=False)
+    net = models.resnet152(pretrained=False)
     num_ftrs = net.fc.in_features
     net.fc = nn.Linear(num_ftrs, 196)
-    net.load_state_dict(torch.load('./best_model50.pt'))
+    net.load_state_dict(torch.load('./best_model152.pt'))
     # trans the model to the server
     net.to(device)
     net.eval()
