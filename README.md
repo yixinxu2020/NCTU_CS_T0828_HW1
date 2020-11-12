@@ -58,6 +58,13 @@ Use the nn.**CrossEntropyLoss()**
 Use the **SGD** optimizer with lr=0.01, momentum=0.9.
 
 Use the lr_scheduler.**StepLR()** with step_size=10, gamma=0.1 to adjust learning rate. 
+### Plot the training_result
+Use the **plot.py** to plot the training_result
+
+---training_data loss & acc, and validation_data loss & acc
+```
+$ python3 plot.py
+```
 ## Testing
 Using the trained model to pred the testing_data.
 ```
