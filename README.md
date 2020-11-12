@@ -7,8 +7,8 @@ Train dataset | Test dataset
 ## Hardware
 The following specs were used to create the original solution.
 - Ubuntu 16.04 LTS
-- Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
-- 3x NVIDIA TitanX
+- Intel(R) Core(TM) i7-7500U CPU @ 2.90GHz
+- 2x NVIDIA 2080Ti
 ## Data pre-process
 ### Data_classes
 All required files except images are already in data directory.
