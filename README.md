@@ -27,7 +27,7 @@ Trainin_data
   +- val
     |	+- label 1
     |	+- label 2
-    | +- label 3 ....(total 196 species labels )
+    |   +- label 3 ....(total 196 species labels )
 ```
 ### Data augmentation
 Since there are 196 kinds of cars to be trained, the training data may not be enough to cause overfit. Therefore, before input data into the model, we can generate more data for the machine to learn by means of data augmentation. 
