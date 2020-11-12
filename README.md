@@ -71,5 +71,9 @@ Using the trained model to pred the testing_data.
 $ python3 test_data.py
 ```
 And get the result, save it as csv file.
+## Submission
+Submit the test_result csv file, get the score.
+
+The best resutl is 91.92%.
 
 
